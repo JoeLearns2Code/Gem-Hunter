@@ -1,0 +1,161 @@
+html {
+    background: url("../images/mine_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+h1 {
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    border: 3px solid darkred;
+    padding: 10px;
+    max-width: 40%;
+    background-color: purple;
+    font-weight: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24pt;
+
+}
+
+.instructions {
+  
+  margin-right: auto;
+  align-content: center;
+  padding: 20px;
+  max-width: 70%;
+  background: bisque;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+  margin-bottom: 20px;
+
+}
+
+.tally-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.target-number {
+  width: 15%;
+  height: 20vh;
+  background: lightgreen;
+  font-size: 20pt;
+  align-content: center;
+  padding: 10px;
+  text-align: center;
+  
+  
+  
+
+
+}
+
+.wins-loss-box {
+  width: 8%;
+  height: 20vh;
+  background: deepskyblue;
+  font-size: 12pt;
+  align-content: center;
+  padding: 10px;
+  
+  
+    
+
+
+}
+
+#scoretext {
+  padding: 10px;
+}
+
+
+.gem-bar {
+    max-width: 40%;
+    background-color:goldenrod;
+    padding: 1vw;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+    
+}
+
+.button-style {
+    margin: auto;
+    padding: 1vw;
+    background: transparent;
+}
+
+
+.score-bar{
+   display: flex;
+   width: 25%;
+   background: #4ee4ee;
+   height: 3vh;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   padding: 20px;
+   font-size: 20pt;
+   align-content: center;
+   vertical-align: middle;
+   
+   
+  
+}
+
+.player-number {
+  display: flex;
+  width: 25%;
+  height: 12vh;
+  background: #4ee4ee;
+  padding: 20px;
+  
+  
+
+
+}
+
+#playerNumber{
+  font-size: 50px;
+
+
+}
+
+#targetNumber{
+  font-size: 50px;
+  margin-top: 15px;
+
+}
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1500px){
+
+
+    .gem-bar {
+        max-width: 70%;
+        
+        
+        
+    }
+
+}
