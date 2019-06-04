@@ -54,27 +54,27 @@ gem2= Math.floor(Math.random()*11+1);
 gem3= Math.floor(Math.random()*11+1);
 gem4= Math.floor(Math.random()*11+1);  
 playerNumber = 0;
-$('playerNumber').text(playerNumber);
+$('#playerNumber').text(playerNumber);
 console.log("This reset to 0 properly: " + playerNumber);
 }
 
 //function for winning
 
-function winGame(){
-wins++;
-$('#wins').text(wins);
-startGame();
+// function winGame(){
+// wins++;
+// $('#wins').text(wins);
+// startGame();
 
-}
+// }
 
 
-//function for losing
+// //function for losing
 
-function loseGame(){
-losses++;
-$('#losses').text(losses);
-startGame();
-}
+// function loseGame(){
+// losses++;
+// $('#losses').text(losses);
+// startGame();
+// }
 
 
 //Assigning random numbers 1-12 for each gem
@@ -101,7 +101,7 @@ if (playerNumber > targetNumber){
     $("#losses").text(losses);
     alert("Ye got greedy lad; try again.");
     startGame();
-    
+
 }
 
 //If playerNumber = targetNumber, a win is added and the game resets.
@@ -123,13 +123,106 @@ if (playerNumber == targetNumber) {
 });
 
 
+//GEM 2
+//Player clicks on the gems to add their random values to the playerNumber
+$("#gem2").on("click", function(){
+    playerNumber += gem2;
+    console.log("This added to total" + playerNumber);
+    $('#playerNumber').text(playerNumber);
+    //If playerNumber > targetNumber, a loss is added and the game resets.
+    if (playerNumber > targetNumber){
+        losses++;
+        $("#losses").text(losses);
+        alert("Ye got greedy lad; try again.");
+        startGame();
+    
+    }
+    
+    //If playerNumber = targetNumber, a win is added and the game resets.
+    
+    if (playerNumber == targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+        alert("Well done!  Add it to your trove.");
+        startGame();
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    });
 
 
+//GEM 3
+//Player clicks on the gems to add their random values to the playerNumber
+$("#gem3").on("click", function(){
+    playerNumber += gem3;
+    console.log("This added to total" + playerNumber);
+    $('#playerNumber').text(playerNumber);
+    //If playerNumber > targetNumber, a loss is added and the game resets.
+    if (playerNumber > targetNumber){
+        losses++;
+        $("#losses").text(losses);
+        alert("Ye got greedy lad; try again.");
+        startGame();
+    
+    }
+    
+    //If playerNumber = targetNumber, a win is added and the game resets.
+    
+    if (playerNumber == targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+        alert("Well done!  Add it to your trove.");
+        startGame();
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    });
 
 
-
-
-
+//GEM 4
+//Player clicks on the gems to add their random values to the playerNumber
+$("#gem4").on("click", function(){
+    playerNumber += gem4;
+    console.log("This added to total" + playerNumber);
+    $('#playerNumber').text(playerNumber);
+    //If playerNumber > targetNumber, a loss is added and the game resets.
+    if (playerNumber > targetNumber){
+        losses++;
+        $("#losses").text(losses);
+        alert("Ye got greedy lad; try again.");
+        startGame();
+    
+    }
+    
+    //If playerNumber = targetNumber, a win is added and the game resets.
+    
+    if (playerNumber == targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+        alert("Well done!  Add it to your trove.");
+        startGame();
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    });
 
 
 
