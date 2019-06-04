@@ -37,7 +37,7 @@ h1 {
   height: 9em;
   position: relative;
   margin-right: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
   
 
 }
@@ -51,7 +51,7 @@ h1 {
   background: bisque;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 14pt;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
   
 
@@ -65,7 +65,7 @@ h1 {
 
 .target-number {
   width: 15%;
-  height: 20vh;
+  height: 15vh;
   background: lightgreen;
   font-size: 20pt;
   align-content: center;
@@ -80,7 +80,7 @@ h1 {
 
 .wins-loss-box {
   width: 8%;
-  height: 20vh;
+  height: 15vh;
   background: deepskyblue;
   font-size: 12pt;
   align-content: center;
@@ -98,13 +98,13 @@ h1 {
 
 
 .gem-bar {
-    max-width: 40%;
+    width: 60%;
     background-color:goldenrod;
     padding: 1vw;
     display: flex;  
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
     
     
 }
@@ -161,14 +161,264 @@ h1 {
 
 /* Media Queries */
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1200px){
+
+  .gem-bar {
+    width: 80%;
+    background-color:goldenrod;
+    padding: 1vw;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+    
+}
 
 
-    .gem-bar {
-        max-width: 70%;
-        
-        
-        
-    }
+.target-number {
+  width: 35%;
+  height: 15vh;
+  background: lightgreen;
+  font-size: 20pt;
+  align-content: center;
+  padding: 10px;
+  text-align: center;
+  
+  
+  
+
+
+}
+
+.wins-loss-box {
+  width: 28%;
+  height: 15vh;
+  background: deepskyblue;
+  font-size: 12pt;
+  align-content: center;
+  padding: 10px;
+  
+  
+    
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 1060px){
+
+  .gem-bar {
+    width: 80%;
+    background-color:goldenrod;
+    padding: 1vw;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+    
+}
+
+
+.target-number {
+  width: 35%;
+  height: 15vh;
+  background: lightgreen;
+  font-size: 20pt;
+  align-content: center;
+  padding: 10px;
+  text-align: center;
+  
+  
+  
+
+
+}
+
+.wins-loss-box {
+  width: 28%;
+  height: 15vh;
+  background: deepskyblue;
+  font-size: 12pt;
+  align-content: center;
+  padding: 10px;
+  
+  
+    
+
+
+}
+
+
+.score-bar{
+  display: flex;
+  width: 50%;
+  background: #4ee4ee;
+  height: 3vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20pt;
+  align-content: center;
+  vertical-align: middle;
+  
+  
+ 
+}
+
+
+@media screen and (max-width: 840px){
+
+  .gem-bar {
+    width: 100%;
+    background-color:goldenrod;
+    padding: 1vw;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+    
+}
+
+
+.target-number {
+  width: 35%;
+  height: 12vh;
+  background: lightgreen;
+  font-size: 20pt;
+  align-content: center;
+  padding: 10px;
+  text-align: center;
+  
+  
+  
+
+
+}
+
+.wins-loss-box {
+  width: 28%;
+  height: 12vh;
+  background: deepskyblue;
+  font-size: 12pt;
+  align-content: center;
+  padding: 10px;
+  
+  
+    
+
+
+}
+
+
+.score-bar{
+  display: flex;
+  width: 50%;
+  background: #4ee4ee;
+  height: 3vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20pt;
+  align-content: center;
+  vertical-align: middle;
+  
+  
+ 
+}
+
+
+
+@media screen and (max-width: 768px){
+
+  .gem-bar {
+    width: 100%;
+    background-color:goldenrod;
+    padding: 1vw;
+    display: flex;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+    
+}
+
+
+.target-number {
+  width: 50%;
+  height: 10vh;
+  background: lightgreen;
+  font-size: 20pt;
+  align-content: center;
+  padding: 10px;
+  text-align: center;
+  
+  
+  
+
+
+}
+
+.wins-loss-box {
+  width: 42%;
+  height: 10vh;
+  background: deepskyblue;
+  font-size: 12pt;
+  align-content: center;
+  padding: 10px;
+
+
+}
+
+
+#scoretext {
+ margin-top: -12px;
+
+}
+
+
+.score-bar{
+  display: flex;
+  width: 50%;
+  background: #4ee4ee;
+  height: 3vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20pt;
+  align-content: center;
+  vertical-align: middle;
+  
+  
+ 
+}
+
+
+.instructions {
+  
+  margin-right: auto;
+  align-content: center;
+  padding: 20px;
+  max-width: 100%;
+  background: bisque;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+  margin-bottom: 10px;
+  position: relative;
+  
+
+}
+
+
 
 }
