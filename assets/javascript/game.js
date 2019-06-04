@@ -99,7 +99,7 @@ $('#playerNumber').text(playerNumber);
 if (playerNumber > targetNumber){
     losses++;
     $("#losses").text(losses);
-    alert("Ye got greedy lad; try again.");
+    alert("Ye got greedy; try again.");
     startGame();
 
 }
@@ -167,7 +167,7 @@ $("#gem3").on("click", function(){
     if (playerNumber > targetNumber){
         losses++;
         $("#losses").text(losses);
-        alert("Ye got greedy lad; try again.");
+        alert("Ye got greedy; try again.");
         startGame();
     
     }
@@ -201,7 +201,7 @@ $("#gem4").on("click", function(){
     if (playerNumber > targetNumber){
         losses++;
         $("#losses").text(losses);
-        alert("Ye got greedy lad; try again.");
+        alert("Ye got greedy; try again.");
         startGame();
     
     }
