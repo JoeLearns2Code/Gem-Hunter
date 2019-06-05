@@ -279,7 +279,7 @@ h1 {
 @media screen and (max-width: 840px){
 
   .gem-bar {
-    width: 100%;
+    width: 98%;
     background-color:goldenrod;
     padding: 1vw;
     display: flex;  
@@ -342,7 +342,7 @@ h1 {
 @media screen and (max-width: 768px){
 
   .gem-bar {
-    width: 100%;
+    width: 98%;
     background-color:goldenrod;
     padding: 1vw;
     display: flex;  
@@ -418,6 +418,94 @@ h1 {
   
 
 }
+
+
+
+}
+
+@media screen and (max-width: 680px){
+ 
+  .player-number {
+    display: flex;
+    width: 50%;
+    height: 12vh;
+    background: #4ee4ee;
+    padding: 20px;
+    
+    
+  
+  
+  }
+
+ button {
+  width: 120px;
+  height: 120px;
+  
+
+ }
+
+img.gemimage{width: 100px; height: 100px; };
+
+
+}
+
+@media screen and (max-width: 560px){
+
+  h1{
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  .instructions {
+    font-size: 12pt;
+
+
+  }
+
+
+  @media screen and (max-width: 540px){
+
+
+    .target-number{
+      width: 100%;
+      font-size: 14pt;
+      height: 50px;
+
+    }
+
+    #targetNumber{
+      font-size: 18pt;
+
+    }
+
+
+    .wins-loss-box {
+      width: 100%;
+
+    }
+
+    #scoretext {
+      width: 100%;
+
+    }
+
+
+    .score-bar{
+      width: 85%;
+      font-size: 14pt;
+      height: 20px;
+      padding: 2px;
+    }
+
+    .player-number{
+      width: 77.5%;
+      
+    }
+
+
+
+
+  }
 
 
 
